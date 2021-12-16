@@ -51,8 +51,10 @@ public class Runner
 				for (int i = 0; i < list.size(); i++)
 					{
 						if (list.get(i).isCorrect())
-							numCorrect++;
-						numOfCorrect++;
+							{
+								numCorrect++;
+								numOfCorrect++;
+							}
 					}
 				numCorrect = (numCorrect / list.size()) * 100;
 			}
