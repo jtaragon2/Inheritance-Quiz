@@ -31,20 +31,23 @@ public class Runner
 						"A. 'It's on fire'\nB. 'Wow, look at that round center'\nC. 'I don't want to'\nD. It won't output/error",
 						"a"));
 				qList.add(new Question("CentralProcessingUnit cpu1 = new X86();", "'cpu1.addressMemory();'",
-						"A. 'What is the up'\nB. 'Nah'\nC. 'Hello. Memory'\nD. It won't output", "d"));
+						"A. 'What is the up'\nB. 'Nah'\nC. 'Hello. Memory'\nD. It won't output/error", "d"));
 				qList.add(new Question("X86 cpu1 = new CentralProcessingUnit();", "'cpu1.runInstruction();'",
-						"A. 'It is done'\nB. 'It's time to get funky'\nC. 'I don't want to'\nD. It won't output", "d"));
+						"A. 'It is done'\nB. 'It's time to get funky'\nC. 'I don't want to'\nD. It won't output/error",
+						"d"));
 				qList.add(new Question("X86 cpu1 = new CentralProcessingUnit();", "'cpu1.processCenter();'",
-						"A. 'It is done'\nB. 'No'\nC. 'I don't want to'\nD. It won't output", "d"));
+						"A. 'It has no center'\nB. 'It's on fire'\nC. 'I don't want to'\nD. It won't output/error", "d"));
 				qList.add(new Question("X86 cpu1 = new CentralProcessingUnit();", "'cpu1.addressMemory();'",
-						"A. 'It is done'\nB. 'No'\nC. 'I don't want to'\nD. It won't output", "d"));
+						"A. 'It is not here'\nB. 'Hello, Memory'\nC. 'I don't want to'\nD. It won't output/error", "d"));
 				qList.add(new Question("X86 cpu1 = new X86();", "'cpu1.runInstruction();'",
-						"A. 'It's time to get funky'\nB. 'It is done'\nC. 'I don't want to'\nD. It won't output", "a"));
+						"A. 'It's time to get funky'\nB. 'It is done'\nC. 'I don't want to'\nD. It won't output/error",
+						"a"));
 				qList.add(new Question("X86 cpu1 = new X86();", "'cpu1.processCenter();'",
-						"A. 'It is done'\nB. 'It won't output/error'\nC. 'It's beginning to look a lot like christmas'\nD. It's on fire",
+						"A. 'It is done'\nB. 'It won't output/error'\nC. 'It's beginning to look a lot like christmas'\nD. 'It's on fire' \nE. It won't output/error",
 						"d"));
 				qList.add(new Question("X86 cpu1 = new X86();", "'cpu1.addressMemory();'",
-						"A. 'Hello World'\nB. 'No, they're boring'\nC. 'Hello, Memory'\nD. Superhappyfuntimes", "c"));
+						"A. 'Hello World'\nB. 'No, they're boring'\nC. 'Hello, Memory'\nD. Superhappyfuntimes \n E. It won't output/error",
+						"c"));
 				
 			}
 			
